@@ -1,22 +1,21 @@
 # dotfiles
 
-## description
+![](https://github.com/ooosuke/dotfiles/actions/workflows/main.yml/badge.svg)
 
-This repository contains scripts to macOS.
-
-## required
-
-- macOS - v11.4
-
-## install
-
-Clone repository
+## Overview
 
 ```
-$ git clone https://github.com/ooosuke/dotfiles.git
+{
+    "description": "my dotfiles",
+    "supported: {
+        "macos": ">11.4"
+    }
+}
 ```
 
-Setup macOS
+## Installation
+
 ```
-$ cd dotfiles && make
+$ cd ~ && git clone https://github.com/ooosuke/dotfiles.git
+$ cd ~/dotfiles && make
 ```
