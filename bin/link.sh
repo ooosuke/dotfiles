@@ -30,5 +30,3 @@ add-link homebrew/.Brewfile .Brewfile
 
 : "iterm2"
 add-link iterm2/com.googlecode.iterm2.plist Library/Preferences/com.googlecode.iterm2.plist
-
-echo $dotfiles_home
